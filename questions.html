@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вопросы — Angelina Telpuk</title>
+  <link rel="icon" href="Reolization/camera.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page page--questions" data-page="questions">
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <p class="site-brand">ANGELINA TELPUK</p>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="questions.html">Вопросы</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="faq-layout" aria-labelledby="faq-page-title">
+      <figure class="faq-layout__photo">
+        <img src="Ангелина/IMG_9891.jpeg" alt="" width="900" height="1100" loading="lazy">
+      </figure>
+      <div class="faq-layout__content">
+        <h1 class="page-head__title" id="faq-page-title">Вопросы и ответы</h1>
+        <div class="accordion" id="faq-accordion"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p class="site-footer__copy">© 2026 Angelina Telpuk. Все фотографии защищены авторским правом</p>
+      <ul class="site-footer__social" aria-label="Соцсети и почта">
+        <li>
+          <a class="icon-link" href="mailto:akrugovets@icloud.com" title="Почта">
+            <img src="Reolization/mail.svg" alt="" width="18" height="18">
+          </a>
+        </li>
+        <li>
+          <a class="icon-link" href="https://t.me/Angelina_Telpuk" target="_blank" rel="noopener noreferrer" title="Telegram">
+            <img src="Reolization/telegram.svg" alt="" width="18" height="18">
+          </a>
+        </li>
+        <li>
+          <a class="icon-link" href="https://instagram.com/telpuk_photo" target="_blank" rel="noopener noreferrer" title="Instagram">
+            <img src="Reolization/instagram.svg" alt="" width="18" height="18">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="fab" aria-label="Быстрые действия">
+    <button type="button" class="fab__btn" id="fab-scroll" title="Наверх" aria-label="Прокрутка наверх">
+      <svg viewBox="0 0 24 24" width="22" height="22" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M12 5l7 7h-4v7H9v-7H5l7-7z" fill="currentColor"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
