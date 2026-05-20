@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+  <page id="home" file="index.html" title="Главная"/>
+  <page id="portfolio" file="portfolio.html" title="Портфолио"/>
+  <page id="contacts" file="contacts.html" title="Контакты"/>
+  <page id="questions" file="questions.html" title="Вопросы"/>
+  <page id="gallery" file="gallery.html" title="Галерея"/>
+</pages>
